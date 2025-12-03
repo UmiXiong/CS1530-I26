@@ -1,17 +1,7 @@
 public class Graphic {
-  public static void main(String[] args) {
-    // Build a small UI tree:
-    // rootPanel
-    //  - Label("Title")
-    //  - Panel("TopBar")
-    //      - Button("Login")
-    //      - Button("Signup")
-    //  - Panel("Content")
-    //      - Label("Welcome message")
-    //      - Panel("Form")
-    //          - Label("Username")
-    //          - Button("Submit")
 
+//  this module used to show the interface in terminal
+  public static void main(String[] args) {
     Panel root = new Panel("RootPanel");
     root.add(new Label("My Application"));
 
